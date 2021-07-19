@@ -1,0 +1,83 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body,
+main,
+div,
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #edf1fd;
+}
+
+.todo-list {
+  border: 1px solid rgba(201, 194, 194, 0.966);
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 5%);
+}
+
+.container {
+  max-width: 400px;
+  margin-top: 5rem;
+}
+
+li {
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(201, 194, 194, 0.966);
+  box-shadow: 2px 2px 12px rgb(0 0 0 / 5%);
+}
+
+i,
+.div-content,
+.title-text,
+.div-content p {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  background-color: transparent;
+}
+
+.txt-list,
+.txt-input,
+.btn-clear {
+  width: 100%;
+  height: 1.5rem;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  color: #383838;
+  font-weight: 600;
+}
+
+.btn-clear {
+  background-color: #d6d6db;
+}
+
+input:focus {
+  outline: none;
+}
+
+.draggin {
+  background-color: greenyellow;
+}
+
+.over-element {
+  background-color: pink;
+}
